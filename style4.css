@@ -1,0 +1,51 @@
+*{
+    padding: 0%;
+    margin: 0%;
+    color: rgb(199, 10, 142);
+    font-size: 15px;
+}
+h1{
+    display: inline;
+}
+button{
+     height: 40px;
+     width: 60px;
+     display: block;
+    background-color: yellow;
+}
+button:hover{
+    background-color: green;
+    color: azure;
+    text-decoration: wavy underline;
+}
+div{
+    height: 100px;
+    width: 100px;
+    border: 2px dashed black;
+    display: inline-block;
+}
+.display{
+    height: 500px;
+    width: 500px;
+    background-color:rgb(50, 205, 197);
+    margin: 100px;
+}
+.Box1{
+    background-color: rgb(255, 0, 0,0.5);
+}
+.Box2{
+    background-color: rgb(255, 47, 203.1);
+    position: relative;
+    top: 50px;
+    left: -50px;
+}
+.Box3{
+    background-color: brown;
+    position: relative;
+    z-index: 4;    
+}
+.Box4{
+    background-color: blue;
+    position: sticky;
+    top: 10px;
+}

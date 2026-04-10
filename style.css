@@ -1,0 +1,27 @@
+h1{
+    text-align: center;
+    color: darkblue;
+    background-color: rgb(218, 25, 25);
+}
+h2{
+    text-align: left;
+    color: chocolate;
+    background-color: antiquewhite;
+}
+.bio{
+    background-color: blueviolet;
+    color: black;
+    font-style: italic;
+}
+ul,ol{
+    color: aqua;
+    background-color: rgb(192, 226, 43);
+}
+#name{
+    color: deeppink;
+    font-style: oblique;
+}
+*{
+    text-align: left;
+    font-style: italic;
+}
