@@ -1,0 +1,50 @@
+body{
+    padding: 0%;
+    margin: 0%;
+    background-color: rgb(6, 72, 75);
+    text-align: center;
+}
+.heading{
+    color: yellow;
+    margin-top: 50px;
+}
+.cardcontainer{
+    display: inline-block;
+    background-color: white;
+    width: 500px;
+    height: 550px;
+    margin-top: 50px;
+}
+.portal{
+    color: red;
+    margin-top: 50px;
+}
+img{
+    width: 70px;
+}
+input{
+    width: 400px;
+    height: 30px;
+    padding: 6px;
+}
+button{
+    width:400px ;
+    margin-top: 50px;
+    height: 50px;
+    background-color: lime;
+    border: lime;
+    color: white;
+    font-size: larger;
+    font-weight: bold;
+}
+button:hover{
+    transform: scale(1.02);
+}
+#click{
+    font-size: 20px;
+    margin-top: 80px;
+}
+.footer{
+    color: yellow;
+    font-size: x-large;
+}
