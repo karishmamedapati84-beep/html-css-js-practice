@@ -1,78 +1,23 @@
 *{
-    margin: 0%;
-    padding: 0%;
+padding: 0%;
+margin: 0%;
+font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+h1{
     text-align: center;
+    color: crimson;
+    text-decoration: black wavy underline;
 }
-div{
-    height: 100px;
-    width: 100px;
-    border: 1px solid black;
-    display: inline-block;
+.nav{
+    position: sticky;
+    top: 0;
+    display: block;
+    background-color: rgba(0,0,0,0.85);
+    padding: 10px;
+    z-index: 1000;
 }
-.container{
-    height: 600px;
-    width: 600px;
-    background-color: aqua;
-    margin: 50px;
-    display: flex;
-    flex-direction: row;
-    align-items: center;
-    justify-content: center;
-    
-}
-.box1{
-    background-color: gold;
-}
-.box2{
-    background-color: crimson;
-    flex-shrink:5;
-}
-.box3{
-    background-color: blue;
-}
-.box4{
-    background-color: deeppink;
-}
-.box5{
-    background-color: chartreuse;
-    background-image: url(img.jpg);
-    background-size: cover;
-}
-.box1:active{
-    background-color: brown;
-    font-size: 30px;
-}
-.box3:hover{
-    background-color: coral;
-    font-size: 40px;
-    transition-property: all;
-    transition-duration: 2s;
-    transition-timing-function: steps(5);
-    transition-delay: 2s; 
-    /* transition: all 0.25s ease-in-out 1s; */
-    transform: rotate(45deg);
-}
-@media(max-width:600px) and (min-width:200px){
-    *{
-        background-color: darkmagenta;
-    }
- .container{
-    background-color: brown;
- }
-}
-@keyframes karishma{
-    from{background-color: gold;}
-    to{
-        background-color:red;
-        font-size: 40px;
-        font-weight: 900;
-    }
-}
-.box1:hover{
-    animation-name: karishma;
-    animation-duration: 0.2s;
-    animation-timing-function: ease-in;
-    animation-delay: 2s;
-    animation-direction: alternate;
-    animation-iteration-count: infinite;
+a{
+    display: inline;
+    color: white;
+    margin-right: 250px;
 }

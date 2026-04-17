@@ -1,33 +1,23 @@
 *{
-    padding: 0%;
-    margin: 0%;
-    font-family: Arial, Helvetica, sans-serif;
-    color: aliceblue;
-    
+    color: gold;
+    text-align: center;
 }
-.nav{
-    height: 50px;
-    background-color: black;
-    padding-top: 8px;
+h1{
+    text-decoration: black wavy underline;
 }
-a{
-    text-decoration: none;
-    margin-right: 150px;
+.card{
+    background-color: aquamarine;
+    height: 300px;
+    width: 500px;
+    color: crimson;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: 10px;
+    padding: 10px;
+    border: 3px dotted blueviolet ;
+    border-radius: 30px;
+    margin: auto;
+    line-height: 5px;
 }
-#logo{
-    font-size: 25px;
-    color: yellow;
-}
-input{
-    width: 200px;
-    height: 20px;
-    border-radius: 5px;
-}
-button{
+h2,h4,p{
     color: black;
-    background-color: yellow;
-    border: solid;
-    border-radius: 5px;
-    width: 80px;
-    height: 30px;
 }

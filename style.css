@@ -1,49 +1,81 @@
+*{
+    padding: 0%;
+    margin: auto;
+    color: red;
+    position: relative;
+    font-size: 25px;
+    text-align: center;
+    top:10px;
+
+}
 h1{
-    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
-    color: aquamarine;
-    background-color: coral;
-}
-p{
-    font-style: italic;
-    font-size: larger;
-}
-.about{
-    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
-    line-height: 10px;
-    color: rgb(226, 42, 143);
+    text-align: center;
+    text-transform: uppercase;
+    text-decoration: underline;
+    top: 100px;
 }
 div{
-    background-color: darkcyan;
-    padding: 10px;
-    margin: 10px;
-    border: dotted;
+    width: 300px;
+    height:0%;
+    display:inline-block;
+    border: 2px solid black;
 }
-.hobby-box{
-    background-color: gold;
-    padding: 10px;
-    margin: 10px;
-    border:dotted;
-}
-.dashed-border{
-    border-style: dashed;
-}
-.border-radius{
-    border-radius: 10px;
-}
-table{
-    border:dotted;
-    font-family: 'Courier New', Courier, monospace;
-    background-color: antiquewhite;
-}
-img{
-    border:solid;
-    margin: 5px;
-    padding: 5px;
-}
-footer{
-    background-color: bisque;
-    color: hsl(210, 50%, 30%);
+.display{
+    width: 500px;
+    height: 500px;
+    margin: 100px;
     font-size: 15px;
+    color:red;
+    background-color: lightpink;
+    position: relative;
+}
+.image{
+    padding: 5px;
+    margin-left: 160px;
+    display: block;
+    width: 150px;
+    height: 160px;
+    margin-top: 50px;
+}
+p{
+    color: black;
+    background-color: bisque;
+    width: 100%;
+}
+#online{
+    width: 100px;
+    height: 50px;
+    border: 5px solid green;
+    text-decoration: underline;
     padding: 2px;
-    margin: 2px;
+    top: 5px;
+    left: -0px;
+    font-size: larger;
+    background-color: green;
+    color: black;
+    border-radius: 2000px;
+    display:inline-block;
+    position: absolute;
+    z-index: 2;
+}
+button{
+    border: none;
+    outline: 0%;
+    padding: 8px;
+    bottom: 0%;
+    opacity: 0.85;
+    color: white;
+    background-color: rgba(0,123,255,0.8);
+    display: inline-block;
+    text-align: center;
+    width: 50%;
+    top: 70px;
+    
+}
+.static-box p{
+    background-color: beige;
+    margin-top: 30px;
+    text-align: center;
+    width: 100%;
+    top: 50px;
 }

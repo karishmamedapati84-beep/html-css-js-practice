@@ -1,12 +1,30 @@
-h1{
-    height: 100px;
-    width: 100px;
-    padding: 50px;
-    background-color: aqua;
+*{
+    padding: 0%;
+    margin: 0%;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    color: aquamarine;
+    background-color: darkcyan;
+}
+.nav{
+    background-color: blueviolet;
+    padding: 10px;
     margin: 10px;
-    border-width: 5px;
-    border-style:double;
-    border-color: blue;
-    border: 8px dashed red;
-    border-radius: 50%;
+    border: dotted;
+    color: crimson;
+    border-radius: 10px;
+}
+a{
+    margin-right: 150px;
+    text-decoration: none;
+}
+#logo{
+    font-size: 25px;
+    color: gold;
+    font-family: 'Courier New', Courier, monospace;
+    font-style: italic;
+}
+.contact:hover{
+    background-color: chocolate;
+    color: black;
+    border-style: dotted;
 }
