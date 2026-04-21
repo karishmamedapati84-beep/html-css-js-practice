@@ -1,30 +1,79 @@
 *{
-    padding: 0%;
     margin: 0%;
+    padding: 0%;
     font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
-    color: aquamarine;
-    background-color: darkcyan;
 }
-.nav{
-    background-color: blueviolet;
-    padding: 10px;
-    margin: 10px;
-    border: dotted;
-    color: crimson;
-    border-radius: 10px;
+h1{
+    text-align: center;
+    color: red;
+    text-decoration: wavy underline black;
 }
-a{
-    margin-right: 150px;
-    text-decoration: none;
-}
-#logo{
-    font-size: 25px;
-    color: gold;
-    font-family: 'Courier New', Courier, monospace;
-    font-style: italic;
-}
-.contact:hover{
-    background-color: chocolate;
+div{
+    height: 300px;
+    width: 400px;
     color: black;
-    border-style: dotted;
+    border: 2px solid black;
+    display: inline-block;
+}
+.container{
+    background-color: aqua;
+    color:yellow;
+    margin: auto;
+    height: 350px;
+    width: 1300px;
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+    justify-content: space-around;
+    text-align: center;
+    align-items: center;
+}
+.card1{
+    background-color: blanchedalmond;
+}
+.card2{
+    background-color: chartreuse;
+}
+.card3{
+    background-color: darkmagenta;
+}
+button{
+    border: 5px solid black;
+}
+.card1:hover{
+    transform: scale(1.08);
+    box-shadow: 0 0 35px red;
+    transition-property: all;
+    transition: 2s;
+}
+.card2:hover{
+    transform: scale(1.08);
+    box-shadow: 0 0 35px darksalmon;
+    transition-property: all;
+    transition: 2s;
+}
+.card3:hover{
+    transform: scale(1.08);
+    box-shadow: 0 0 35px yellow ;
+    transition-property: all;
+    transition: 2s;
+}
+@keyframes fadeslide{
+    from{
+        transform: translateX(100);
+    }
+    to{
+        transform: translateX(0);
+    }
+}
+.card2:hover{
+    animation-name: fadeslide;
+    animation-duration: 1s;
+    animation-timing-function: ease-in-out;
+    animation-direction: alternate;
+}
+@media(max-width:768px){
+    .container{
+        background-color: chocolate;
+    }
 }
