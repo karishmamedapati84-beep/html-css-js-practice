@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <style>
+     .bg-black{
+        background-color:crimson;
+        color: #ffffff;
+        }
+    </style>
+    <title>Javascript Mini-Project</title>
+</head>
+<body class="bg-black">
+    <div>
+        <h1>Mini Project Task</h1>
+   <input type="text" id="newTaskInput" placeholder="Enter new task">
+    <ul>
+        <li>task1</li>
+        <li>task2</li>
+        <li>task3</li>
+    </ul>
+    <button onclick="addTask()">Delete</button>
+</div>
+<script>
+const myul=document.querySelector("ul")
+myul.querySelector("li")
+const turngreen= myul.querySelector("li")
+turngreen.style.backgroundcolor="green"
+
+
+
+const myArray = ["task1", "task2", "task3"]
+
+myArray.forEach(function(item){
+    console.log(item);
+})
+
+setTimeout(function(){
+        console.log("Task Added!");
+        
+    },2000)
+
+</script>
+</body>
+</html>
