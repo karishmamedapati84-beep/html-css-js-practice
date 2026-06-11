@@ -1,0 +1,342 @@
+*{
+    margin: 0%;
+    padding: 0%;
+}
+h1{
+    color: red;
+    font-family: 'Times New Roman', Times, serif;
+    margin-left: 100px ;
+    font-weight: bold;
+    font-size: 50px;
+}
+body{
+    background-color: black;
+    color: white;
+}
+.header{
+    height: 750px;
+    background-image: url(Netflix\ image\ 1.png);
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed;
+    padding: 10p 8%x;
+    position: relative;
+    background-repeat: no-repeat;
+}
+.nav{
+   text-align: right;
+   margin-right: 100px;
+   margin-top: -30px;
+}
+button{
+    color: white;
+    background-color: red;
+    border: red;
+    border-radius: 5px;
+    height: 35px;
+    width: 85px;
+    font-size: larger;
+}
+select{
+    border: white;
+    background-color: rgb(32, 28, 28);
+    color: white;
+    font-size: larger;
+    border-radius: 5px;
+    margin-right: 10px;
+}
+button:hover{
+    background-color:rgb(245, 67, 67) ;
+}
+.description{
+    text-align: center;
+    color: white;
+    margin-top: 170px;
+    font-weight: bolder;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 60px;
+}
+h5{
+    color: white;
+    text-align: center;
+    margin-left: 100px;
+    font-size: large;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: 900;
+}
+h6{
+    color: white;
+    text-align: center;
+    font-size: medium;
+    margin-left:90px;
+}
+input{
+   margin-left: 550px;
+   width: 320px;
+   height:25px;
+   background-color:rgba(23, 23 , 23, 0.2);
+   border-radius:5px;
+   padding: 15px 30px;
+   border: 1px solid rgba(246, 238, 238,0.5);
+}
+::placeholder{
+    color: rgb(177, 168, 168);
+    font-size: larger;
+}
+.getstarted{
+    width: 200px;
+    height: 59px;
+    margin-left: 8px;
+    font-size: 25px;
+    font-weight: bolder;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.features{
+    padding: 50px 12%;
+    font-size:22px;
+    font-size: medium;
+    font-weight: lighter;
+}
+.row{
+    display: flex;
+    width: 100%;
+    align-items: center;
+    flex-wrap:wrap;
+    padding: 50px 0;
+}
+.scroll-container {
+  display: flex;
+  overflow-x: auto;
+  scroll-behavior: smooth;
+  padding-bottom: 10px;
+}
+.movie-card {
+  flex: 0 0 auto;
+  margin-right: 15px;
+  transition: transform 0.3s ease;
+  width: 180px;
+}
+.movie-card img {
+  width: 180px;
+  height: 240px;
+  border-radius: 10px;
+}
+.movie-card:hover {
+  transform: scale(1.08);
+}
+.cardcontainer{
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+}
+.card1{
+   display: inline-block;
+   width:280px;
+   height: 260px;
+   background-image: url(images.jpeg);
+   background-size: cover;
+   margin-right: 10px;
+   border-radius: 20px;
+   border-image: url(images.jpeg);
+}
+.card2{
+   display: inline-block;
+   width:280px;
+   height: 260px;
+   background-image: url(images.jpeg);
+   background-size: cover;
+   margin-right: 10px;
+    border-radius: 20px;
+    border-image: url(images.jpeg);
+}
+.card3{
+   display: inline-block;
+   width:280px;
+   height: 260px;
+   background-image: url(images.jpeg);
+   background-size: cover;
+   margin-right: 10px;
+    border-radius: 20px;
+    border-image: url(images.jpeg);
+}
+.card4{
+   display: inline-block;
+   width:280px;
+   height: 260px;
+   background-image: url(images.jpeg);
+   background-size: cover;
+    border-radius: 20px;
+    border-image: url(images.jpeg);
+}
+h2{
+    padding: 15px;
+    font-weight: bold;
+}
+p{
+    padding: 15px;
+    font-size: large;
+    color: darkgray;
+    font-weight: bold;
+}
+.image{
+    padding: 10px;
+    margin-left: 200px;
+    display: block;
+    width: 150px;
+    height: 160px;
+    margin-top: 10px;
+    border-radius: 20px;
+     
+}
+.image3{
+    padding:10px;
+    margin-left: 200px;
+    display: block;
+    width: 150px;
+    height: 160px;
+    margin-top: 30px;
+    border-radius: 10px;
+}
+.question1{
+    width: 1158px;
+    height: 75px;
+    padding: 15px;
+    color: white;
+    background-color: rgb(66, 63, 63);
+    text-align: left;
+    font-size:x-large;
+    margin-bottom: 10px;
+    border-radius: -0px;
+    
+}
+.question1:hover{
+    background-color: rgb(83, 82, 82);
+}
+.question2{
+    width: 1158px;
+    height: 75px;
+    padding: 15px;
+    color: white;
+    background-color: rgb(66, 63, 63);
+    text-align: left;
+    font-size:x-large;
+    margin-bottom: 10px;
+    border-radius: -0px;
+}
+.question2:hover{
+    background-color: rgb(83, 82, 82);
+}
+.question3{
+    width: 1158px;
+    height: 75px;
+    padding: 15px;
+    color: white;
+    margin-bottom: 10px;
+    background-color: rgb(66, 63, 63);
+    text-align: left;
+    font-size:x-large;
+    border-radius: -0px;
+}
+.question3:hover{
+    background-color: rgb(83, 82, 82);
+}
+.question4{
+    width: 1158px;
+    height: 75px;
+    padding: 15px;
+    margin-bottom: 10px;
+    color: white;
+    background-color: rgb(66, 63, 63);
+    text-align: left;
+    font-size:x-large;
+    border-radius: -0px;
+}
+.question4:hover{
+    background-color: rgb(83, 82, 82);
+}
+.question5{
+    width: 1158px;
+    height: 75px;
+    padding: 15px;
+    color: white;
+    margin-bottom: 10px;
+    background-color: rgb(66, 63, 63);
+    text-align: left;
+    font-size:x-large;
+    border-radius: -0px;
+}
+.question5:hover{
+    background-color: rgb(83, 82, 82);
+}
+.question6{
+    width: 1158px;
+    height: 75px;
+    padding: 15px;
+    color: white;
+    margin-bottom: 10px;
+    background-color: rgb(66, 63, 63);
+    text-align: left;
+    font-size:x-large;
+    border-radius: -0px;
+}
+.question6:hover{
+    background-color: rgb(83, 82, 82);
+}
+.ready{
+    color: white;
+    margin-left: 140px;
+    font-weight: lighter;
+}
+.email{
+    margin-left: -450px;
+    margin-right: 10px;
+    
+}
+.footer {
+  background-color: #111;
+  color: #757575;
+  font-size: 14px;
+}
+.footer-title{
+    text-align: center;
+    margin-bottom: 20px;
+}
+.footer-title a {
+  color: #757575;
+  text-decoration: none;
+}
+.footer-links {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(150px, 1fr));
+  gap: 10px;
+  max-width: 800px;
+  text-align: center;
+  margin: 0 auto 20px;
+}
+.footer-links a {
+  color: #757575;
+}
+.footer-links a:hover {
+  color: #fff;
+}
+.languages{
+    margin-left: 200px;
+    width: 130px;
+    height: 35px;
+    margin-top: 40px;
+    padding: 5px;
+    background-color:rgba(75, 74, 74, 0.356);
+    border: 0.2px solid white;
+    border-radius: 0%;
+    text-align: center;
+}
+.India{
+    font-weight: 100;
+    margin-top: 35px;
+    margin-left: 180px;
+}
+.protected{
+    margin-top: 10px;
+    margin-left: 180px;
+    font-weight: lighter;
+}
