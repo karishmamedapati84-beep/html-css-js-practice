@@ -1,0 +1,30 @@
+*{
+    background-color: blueviolet;
+    
+}
+.square {
+    width: 500px;
+    height: 500px;
+    background-color: white;
+    margin: 20px auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    overflow: hidden; 
+}
+
+.square img {
+    width: 500px;
+    height: 500px;
+    object-fit: cover;
+}
+
+button {
+     display: block;
+     margin: auto;
+     padding: 10px 20px;
+     width: 500px;
+     font-size: xx-large;
+     font-weight: 600;
+     border-radius: 100px;
+}
