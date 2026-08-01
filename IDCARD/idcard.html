@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<title>Student ID Card</title>
+<link rel="stylesheet" href="idcard.css">
+</head>
+<body>
+
+  <div class="card">
+    <div class="card-top">
+      <h3>STUDENT ID CARD</h3>
+    </div>
+
+    <img id="studentPhoto" src="https://placehold.co/150x150?text=Photo" alt="Student Photo">
+
+    <h2 id="nameValue">Medapati Karishma</h2>
+    <p class="dept-tag" id="deptValue">Computer Science</p>
+
+    <div class="details">
+      <p><span>Roll Number</span><span id="rollValue">24CSE144</span></p>
+      <p><span>Registration No.</span><span id="regValue">24UG010210</span></p>
+      <p><span>Phone Number</span><span id="phoneValue">9876543210</span></p>
+    </div>
+  </div>
+
+  <div class="buttons">
+    <button onclick="editField('nameValue','Enter new name')">Edit Name</button>
+    <button onclick="editField('deptValue','Enter new department')">Edit Department</button>
+    <button onclick="editField('rollValue','Enter new roll number')">Edit Roll Number</button>
+    <button onclick="editField('regValue','Enter new registration number')">Edit Registration Number</button>
+    <button onclick="editField('phoneValue','Enter new phone number')">Edit Phone Number</button>
+  </div>
+
+  <script src="idcard.js"></script>
+</body>
+</html>
